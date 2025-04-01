@@ -1,0 +1,67 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+#chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bar {
+    fill-opacity: 0.9;
+    cursor: pointer;
+}
+
+.bar:hover {
+    fill-opacity: 1;
+}
+
+.axis text {
+    font-size: 14px;
+    font-weight: bold;
+    fill: #555;
+}
+
+.grid line {
+    stroke: #ddd;
+}
+
+.tooltip {
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.line {
+    fill: none;
+    stroke: #ff4d4d;
+    stroke-width: 3px;
+}
+
+.dot {
+    fill: #ff4d4d;
+    stroke: #fff;
+    stroke-width: 2;
+}
+
+.legend {
+    font-size: 12px;
+    font-weight: bold;
+}
